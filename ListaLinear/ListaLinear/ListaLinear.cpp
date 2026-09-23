@@ -1,4 +1,4 @@
-// Claudio Souza Nunes
+// Mallu Santos Régio
 
 #include <iostream>
 using namespace std;
@@ -106,9 +106,9 @@ void inserirElemento()
 void buscarElemento()
 {
 	int encontrar;
-	bool encontrado = true;
+	bool encontrado = false;
 
-	cout << "Digite o número: " << endl;
+	cout << "Digite o elemento desejado: " << endl;
 	cin >> encontrar;
 
 	for (int i = 0; i < nElementos; i++) 
@@ -122,7 +122,7 @@ void buscarElemento()
 	}
 	if (!encontrado) 
 	{
-		cout << "Elemento não encontrado." << endl;
+		cout << "Elemento nao encontrado." << endl;
 	}
 
 
